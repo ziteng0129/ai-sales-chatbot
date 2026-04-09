@@ -1,11 +1,12 @@
 import streamlit as st
+import os
 from openai import OpenAI
+
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 # =========================
 # SETUP
 # =========================
-
-client = OpenAI(api_key="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")
 
 st.title("Confirm.AI Sales Assistant")
 
