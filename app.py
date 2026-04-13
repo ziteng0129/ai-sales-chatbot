@@ -15,6 +15,8 @@ Product: iPhone 17
 Price: RM4500
 Warranty: 1 year
 Delivery: 5-7 working days
+Colour: Orange 
+Stock count: 3
 """
 
 # =========================
